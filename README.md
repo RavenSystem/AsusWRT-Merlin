@@ -12,4 +12,4 @@ I have tested different Asus router models, and I have experience developing som
 
 Under [Config](Config) you will find all config options and screenshots.
 
-VPN for Apple devices: [AAH Always At Home](https://github.com/RavenSystem/AlwaysAtHome)
+VPN for Apple devices: [AAH: Always At Home](https://github.com/RavenSystem/AlwaysAtHome)
