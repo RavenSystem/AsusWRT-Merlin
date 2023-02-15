@@ -20,4 +20,4 @@ nvram set wl1.3_wpa_gtk_rekey=0
 nvram commit
 ```
 
-A reboot is recommened to finish.
+A reboot is recommended when finished.
