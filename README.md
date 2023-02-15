@@ -16,4 +16,4 @@ Under [Config](Config) you will find all config options and screenshots.
 
 Remember to check [AMTM](https://diversion.ch) plugins and options, included with AsusWRT-Merlin.
 
-VPN for Apple devices: [AAH: Always At Home](https://github.com/RavenSystem/AlwaysAtHome)
+Router VPN Server for Apple devices: [AAH: Always At Home](https://github.com/RavenSystem/AlwaysAtHome)
