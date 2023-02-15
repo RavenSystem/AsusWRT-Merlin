@@ -6,7 +6,7 @@
 
 [![Chat](https://img.shields.io/discord/594630635696553994?style=social)](https://discord.gg/v8hyxj2)
 
-This is the configuration from my AsusWRT routers, with AsusWRT-Merlin firmware installed.
+This is the configuration from my AsusWRT routers, with [AsusWRT-Merlin firmware](https://www.asuswrt-merlin.net) installed.
 
 I have tested different Asus router models, and I have experience developing some AsusWRT-Merlin Addons. My setup manages more than 70+ network connected devices (60+ wifi devices).
 
