@@ -8,7 +8,7 @@
 
 This is the configuration from my AsusWRT routers, with AsusWRT-Merlin firmware installed.
 
-I have tested different Asus router models, and I have experience developing some AsusWRT-merlin Addons. My setup manages more than 70+ network connected devices (60+ wifi devices).
+I have tested different Asus router models, and I have experience developing some AsusWRT-Merlin Addons. My setup manages more than 70+ network connected devices (60+ wifi devices).
 
 Check [AsusWRT-Merlin supported devices](https://github.com/RMerl/asuswrt-merlin.ng/wiki/Supported-Devices)
 
