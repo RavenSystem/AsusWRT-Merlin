@@ -12,7 +12,7 @@ I have tested different Asus router models, and I have experience developing som
 
 Check [AsusWRT-Merlin supported devices](https://github.com/RMerl/asuswrt-merlin.ng/wiki/Supported-Devices)
 
-Under [Config](Config) you will find all config options and screenshots.
+Under [Config](Config#main-router-configuration) you will find all config options and screenshots.
 
 Remember to check [AMTM](https://diversion.ch) plugins and options, included with AsusWRT-Merlin.
 
