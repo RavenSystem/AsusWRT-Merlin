@@ -55,7 +55,9 @@ To disable it, add this line...
 service stop_conn_diag
 ```
 
-... to the end of this file:
+... to the end of this file...
 ```shell
 /jffs/scripts/services-start
 ```
+
+... and restart router.
