@@ -20,7 +20,7 @@ Router VPN Server for Apple devices: [AAH: Always At Home](https://github.com/Ra
 
 ## Tips
 
-Some scripts options to customize your router. Please, before read [AsusWRT-Merlin.ng User Scripts](https://github.com/RMerl/asuswrt-merlin.ng/wiki/User-scripts) to know how they works.
+Some scripts options to customize your router. Please, before read [AsusWRT-Merlin User Scripts](https://github.com/RMerl/asuswrt-merlin.ng/wiki/User-scripts) to know how they works.
 
 ### Check and customize SWAP
 
