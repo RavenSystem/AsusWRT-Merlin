@@ -104,3 +104,10 @@ nvram commit
 
 - Restart node.
 - Connect main router LAN1 and LAN2 ports to node WAN and LAN1 ports.
+
+#### Customize Link Aggregation Policy
+
+LACP Policy can be changed using:
+```shell
+echo 0 > /sys/class/net/bond0/bonding/xmit_hash_policy
+```
