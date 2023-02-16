@@ -109,5 +109,5 @@ nvram commit
 
 LACP Policy can be changed using:
 ```shell
-echo 0 > /sys/class/net/bond0/bonding/xmit_hash_policy
+echo 2 > /sys/class/net/bond0/bonding/xmit_hash_policy
 ```
