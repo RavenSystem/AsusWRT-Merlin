@@ -26,7 +26,7 @@ Some scripts options to customize your router. Please, before read [AsusWRT-Merl
 
 If your router has a SWAP file installed by [AMTM](https://diversion.ch), you can check and customize it.
 
-To check, run it and see value:
+To check it, run this command and see value:
 ```shell
 cat /proc/sys/vm/swappiness
 ```
