@@ -61,3 +61,46 @@ service stop_conn_diag
 ```
 
 ... and restart router.
+
+### Enable Link Aggregation to AiMesh node Ethernet Uplink
+
+By default, only WAN port can be used as uplink to main router or core switch. But if your node supports Link Aggregation, you can use it as uplink.
+
+#### Enable link aggregation in Aimesh node
+- Under WebUI AiMesh Menu, select your AiMesh Node, Manage, and enable Link Aggregation. If this option is not available, you can stop here because your node doesn't support it.
+
+#### Enable link aggregation in main router
+- Under WebUI LAN Menu, select Switch Control tab, and enable Link Aggregation. If this option is not available, you can stop here because your main router doesn't support it.
+
+#### Add custom script to node
+- Enter to your node using SSH.
+- Edit this file:
+```shell
+/jffs/scripts/init-start
+```
+
+- Add these commands to remove `eth3` (LAN2) and add `eth0` (WAN) to `bond0` (Link Aggregation Interface):
+```shell
+#!/bin/sh
+ifconfig bond0 down
+echo "-eth3" > /sys/class/net/bond0/bonding/slaves
+brctl addif br0 eth3
+brctl delif br0 eth0
+ifconfig eth0 down
+echo "+eth0" > /sys/class/net/bond0/bonding/slaves
+ifconfig bond0 up
+```
+
+- Set file permissions:
+```shell
+chmod a+x /jffs/scripts/init-start
+```
+
+- Enable User Scripts:
+```shell
+nvram set jffs2_scripts=1
+nvram commit
+```
+
+- Restart node.
+- Connect main router LAN1 and LAN2 ports to node WAN and LAN1 ports.
