@@ -46,7 +46,7 @@ echo 72 > /proc/sys/vm/swappiness
 swapon /tmp/mnt/pendrive/myswap.swp # Added by amtm
 ```
 
-### Remove Asus proprietary diagnostic tool
+### Remove Asus proprietary connection diagnostic tool
 
 This is a service used to check router ports and show their status in WebUI. It is useless because under Tools menu you can see ports status, and can be disabled to save RAM.
 
