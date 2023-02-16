@@ -5,7 +5,7 @@ Here, there are screenshots about all basic router configuration.
 Each screenshot filename is Main Menu (left colunm from router WebUI) followed by selected Tab.
 
 Once all options are set from router WebUI, it is recommended to enter to router and ALL AiMesh nodes using SSH 
-and run this to remove wifi group rekey completely:
+and run this to remove wifi group rekey completely and set Bluetooth coexistente to pre-emptive:
 
 ```shell
 nvram set wl_wpa_gtk_rekey=0
@@ -17,6 +17,10 @@ nvram set wl1_wpa_gtk_rekey=0
 nvram set wl1.1_wpa_gtk_rekey=0
 nvram set wl1.2_wpa_gtk_rekey=0
 nvram set wl1.3_wpa_gtk_rekey=0
+
+nvram set wl0_btc_mode=2
+nvram set wl_btc_mode=2
+
 nvram commit
 ```
 
