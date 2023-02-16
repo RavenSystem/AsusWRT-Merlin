@@ -31,17 +31,17 @@ To check, run it and see value:
 cat /proc/sys/vm/swappiness
 ```
 
-If value is `0`, or if you want to use a different value, run or add this line with your new value (`72` is an example):
+If value is `0`, or if you want to use a different value, run or add this line with your new value (`72` is an example)...
 ```shell
 echo 72 > /proc/sys/vm/swappiness
 ```
 
-Into this file:
+... into this file...
 ```shell
 /jffs/scripts/post-mount
 ```
 
-After line:
+... after line:
 ```shell
 swapon /tmp/mnt/pendrive/myswap.swp # Added by amtm
 ```
@@ -50,12 +50,12 @@ swapon /tmp/mnt/pendrive/myswap.swp # Added by amtm
 
 This is a service used to check router ports and show their status in WebUI. It is useless because under Tools menu you can see ports status, and can be disabled to save RAM.
 
-To disable it, add this line:
+To disable it, add this line...
 ```shell
 service stop_conn_diag
 ```
 
-To the end of this file:
+... to the end of this file:
 ```shell
 /jffs/scripts/services-start
 ```
