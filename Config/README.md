@@ -15,6 +15,7 @@ nvram set wl0.1_wpa_gtk_rekey=0
 nvram set wl0.2_wpa_gtk_rekey=0
 nvram set wl0.3_wpa_gtk_rekey=0
 nvram set wl0.4_wpa_gtk_rekey=0
+nvram set wl0.5_wpa_gtk_rekey=0
 nvram set wl1_wpa_gtk_rekey=0
 nvram set wl1.1_wpa_gtk_rekey=0
 nvram set wl1.2_wpa_gtk_rekey=0
