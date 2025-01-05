@@ -35,13 +35,6 @@ nvram set wl0_plcphdr=short
 nvram set wl1_plcphdr=short
 nvram set wl_plcphdr=short
 
-# DTIM
-nvram set wl_dtim=3
-
-# IGMP
-nvram set wl_wmf_igmpq_filter=1
-nvram set wl_wmf_ucigmp_query=1
-
 # Save changes
 nvram commit
 ```
