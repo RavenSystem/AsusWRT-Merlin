@@ -30,6 +30,11 @@ nvram set wl_twt=1
 nvram set wl0_btc_mode=2
 nvram set wl_btc_mode=2
 
+# Preamble
+nvram set wl0_plcphdr=short
+nvram set wl1_plcphdr=short
+nvram set wl_plcphdr=short
+
 # Save changes
 nvram commit
 ```
