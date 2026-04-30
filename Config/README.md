@@ -8,7 +8,7 @@ Once all options are set from router WebUI, it is recommended to enter to router
 and run this to remove wifi group rekey completely, enable Target Wake Time, and set Bluetooth coexistence to pre-emptive:
 
 ```shell
-# Wifi Rekey
+# Wifi Rekey disable
 nvram set wl_wpa_gtk_rekey=0
 nvram set wl0_wpa_gtk_rekey=0
 nvram set wl0.1_wpa_gtk_rekey=0
@@ -26,13 +26,18 @@ nvram set wl0_twt=1
 nvram set wl1_twt=1
 nvram set wl_twt=1
 
-# Bluetooth coexistence 
+# Bluetooth set mode coexistence 
 nvram set wl0_btc_mode=2
 nvram set wl_btc_mode=2
 
 # Preamble
 nvram set wl0_plcphdr=0
 nvram set wl_plcphdr=0
+
+# Frameburst disable
+wl0_frameburst=off
+wl1_frameburst=off
+wl_frameburst=off
 
 # Save changes
 nvram commit
