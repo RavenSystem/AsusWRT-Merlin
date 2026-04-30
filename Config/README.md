@@ -39,6 +39,10 @@ wl0_frameburst=off
 wl1_frameburst=off
 wl_frameburst=off
 
+# 802.11b disable
+wl0_rateset=ofdm
+wl_rateset=ofdm
+
 # Save changes
 nvram commit
 ```
