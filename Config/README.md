@@ -1,10 +1,10 @@
-# Main Router Configuration
+# Router Configuration
 
 Here, there are screenshots about all basic router configuration.
 
 Each screenshot filename is Main Menu (left colunm from router WebUI) followed by selected Tab.
 
-Once all options are set from router WebUI, it is recommended to enter to router and ALL AiMesh nodes using SSH 
+Once all options are set from router WebUI, it is recommended to enter to router and **ALL AiMesh** nodes using SSH 
 and run this to remove wifi group rekey completely, enable Target Wake Time, and set Bluetooth coexistence to pre-emptive:
 
 ```shell
